@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Generate />} />
+        <Route path="/Bento-Generator" element={<Generate />} />
         <Route path="*" element={<h1>Not Found Page</h1>} />
       </Routes>
     </BrowserRouter>
