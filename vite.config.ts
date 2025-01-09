@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Bento-Generator",
+  base: "/Bento-Generator/",
+  build: { outDir: "./docs" },
   plugins: [react()],
 });

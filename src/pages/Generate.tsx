@@ -40,7 +40,7 @@ const Generate = () => {
         enable_hr: true,
         hr_scale: 2,
         hr_upscaler: "Latent (bicubic)",
-        hr_additional_modules:[]
+        hr_additional_modules: [],
       })
       .then((response: AxiosResponse) => {
         setImage(response.data.images[0]);
