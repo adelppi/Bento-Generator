@@ -36,7 +36,7 @@ jobs:
           node-version: 16
       - name: build
         run: npm i && npm run build
-          env:
+        env:
           VITE_API_URL: ${{ secrets.VITE_API_URL }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
