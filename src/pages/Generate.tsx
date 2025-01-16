@@ -22,7 +22,7 @@ const Generate = () => {
     axios
       .post(GEN_URL, {
         prompt:
-          "bento, <lora:bento:1>, lunch box, ((best quality)), RAW photo, subject, 8k uhd, dslr, soft lighting, high quality, film grain, (white rice:0.7), " +
+          "bento, <lora:bento_v2:1>, lunch box, ((best quality)), RAW photo, subject, 8k uhd, dslr, soft lighting, high quality, film grain, (white rice:0.7), " +
           prompt,
         negative_prompt:
           "(worst quality:1.2), (bad quality:1.2), (poor quality:1.2), (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime), text, cropped, out of frame, jpeg artifacts, ugly, duplicate, morbid, mutilated, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, disfigured, gross proportions, UnrealisticDream",
